@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WCFExamen" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WCFExamen" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfSolicitudes">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Solicitudes" nillable="true" type="tns:Solicitudes" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSolicitudes" nillable="true" type="tns:ArrayOfSolicitudes" />
+  <xs:complexType name="Solicitudes">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="desact" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="descat" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="dni" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="fsolicitud" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="nsolicitud" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Solicitudes" nillable="true" type="tns:Solicitudes" />
+  <xs:complexType name="ArrayOfActividad">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Actividad" nillable="true" type="tns:Actividad" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfActividad" nillable="true" type="tns:ArrayOfActividad" />
+  <xs:complexType name="Actividad">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="desact" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="fecha" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="idact" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="idcateg" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="vacantes" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Actividad" nillable="true" type="tns:Actividad" />
+  <xs:complexType name="Solicitud">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="dni" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="fsolicitud" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="idact" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="nsolicitud" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Solicitud" nillable="true" type="tns:Solicitud" />
+</xs:schema>

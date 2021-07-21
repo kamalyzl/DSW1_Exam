@@ -1,0 +1,7 @@
+C:\Users\kamal\Desktop\Examen_Susti_DSW1\Solucion_WCF_Service\WCFExamen\bin\WCFExamen.dll.config
+C:\Users\kamal\Desktop\Examen_Susti_DSW1\Solucion_WCF_Service\WCFExamen\bin\WCFExamen.dll
+C:\Users\kamal\Desktop\Examen_Susti_DSW1\Solucion_WCF_Service\WCFExamen\bin\WCFExamen.pdb
+C:\Users\kamal\Desktop\Examen_Susti_DSW1\Solucion_WCF_Service\WCFExamen\obj\Debug\WCFExamen.csproj.AssemblyReference.cache
+C:\Users\kamal\Desktop\Examen_Susti_DSW1\Solucion_WCF_Service\WCFExamen\obj\Debug\WCFExamen.csproj.CoreCompileInputs.cache
+C:\Users\kamal\Desktop\Examen_Susti_DSW1\Solucion_WCF_Service\WCFExamen\obj\Debug\WCFExamen.dll
+C:\Users\kamal\Desktop\Examen_Susti_DSW1\Solucion_WCF_Service\WCFExamen\obj\Debug\WCFExamen.pdb
